@@ -66,6 +66,7 @@ Example of the json structure for a Player
     }
 ]
 ```
+
 Players Positions
 ```
 "element_types":[
@@ -77,5 +78,44 @@ Players Positions
         "plural_name_short":"GKP"}
     }
 ]
+```
 
+Teams
+```
+"teams":[
+    {
+        "id":1,
+        "current_event_fixture":[{"is_home":false,
+        "day":7,
+        "event_day":3,
+        "month":10,
+        "id":74,
+        "opponent":9}],
+        "next_event_fixture":[{"is_home":true,
+        "day":22,
+        "event_day":3,
+        "month":10,
+        "id":81,
+        "opponent":11}],
+        "name":"Arsenal",
+        "code":3,
+        "short_name":"ARS",
+        "unavailable":false,
+        "strength":4,
+        "position":0,
+        "played":0,
+        "win":0,
+        "loss":0,
+        "draw":0,
+        "points":0,
+        "form":null,
+        "link_url":"",
+        "strength_overall_home":1280,
+        "strength_overall_away":1310,
+        "strength_attack_home":1230,
+        "strength_attack_away":1280,
+        "strength_defence_home":1270,
+        "strength_defence_away":1320,
+        "team_division":1
+    }
 ```
